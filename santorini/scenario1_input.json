@@ -1,5 +1,0 @@
-{"Criteria" : {"Dead" : "Dead", "Injured" : "Injured", "Homeless": "Homeless", "Direct Cost [k€]" : "Direct Cost [k€]",  
- "Indirect Cost [k€]": "Indirect Cost [k€]", "EM Management Cost [k€]" : "EM Management Cost [k€]" ,"Sanitary Cost [k€]" : "Sanitary Cost [k€]"},
-"EVC_anteEQ1_anteEQ2" : {"Dead" : 9, "Injured" : 32, "Homeless" : 2038, "Direct Cost [k€]" : 2157698, "Indirect Cost [k€]" : 150388, "EM Management Cost [k€]" : 1507855, "Sanitary Cost [k€]" : 63}, 
-"EVC_anteEQ1" : {"Dead" : 20, "Injured" : 67, "Homeless" : 2028, "Direct Cost [k€]" : 2161262, "Indirect Cost [k€]" : 150357, "EM Management Cost [k€]" : 1507855, "Sanitary Cost [k€]" : 134 },  
-"No Mitigation" : {"Dead" : 159, "Injured" : 542, "Homeless" : 14843, "Direct Cost [k€]" : 2208848, "Indirect Cost [k€]": 174522,  "EM Management Cost [k€]" : 1507855, "Sanitary Cost [k€]" : 1085  }}
