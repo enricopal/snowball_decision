@@ -65,7 +65,11 @@ class DecisionInterfaceSantorini(server.App):
 
     controls = [{   "type" : "hidden",
                     "id" : "update_data"}, {   "type" : "hidden",
-                    "id" : "plot"}]
+                    "id" : "plot"},
+                    {"type" : "button",
+                    "label" : "Update results",
+                    "id" : "update_results"}
+                    ]
 
     tabs = ["Data","Ranking","Classes", "Distributions", "Info"]
 
@@ -78,15 +82,15 @@ class DecisionInterfaceSantorini(server.App):
                     "tab" : "Info",
                     "on_page_load" : True },{ "type" : "html",
                     "id" : "html1",
-                    "control_id" : "plot", 
+                    "control_id" : "update_results", 
                     "tab" : "Ranking",
                     "on_page_load" : True }, { "type" : "html",
                     "id" : "html2",
-                    "control_id" : "plot",
+                    "control_id" : "update_results",
                     "tab" : "Classes",
                     "on_page_load" : True }, { "type" : "plot",
                     "id" : "plot1",
-                    "control_id" : "plot",
+                    "control_id" : "update_results",
                     "tab" : "Distributions",
                     "on_page_load" : True }]
 
